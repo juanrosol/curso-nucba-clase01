@@ -4,120 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>desafio practico 1</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>Mi perfil</h1>
+    <header>
+      <h1 class="cabecera">Mi perfil</h1>
+    </header>
     <img
+      class="img1"
       src="./gettyimages-1178748615-2048x2048.jpg"
       width="200"
       height="175"
       alt="mi foto"
     />
-    <h2>Datos acerca de mi</h2>
-    <ol>
-      <li>
-        Informacion personal
-        <ul>
-          <li>Edad: 28</li>
-          <li>Lugar de nacimiento: Salta</li>
-          <li>Fecha de nacimiento: 29/05/1997</li>
-        </ul>
-      </li>
-      <li>
-        Temas que me gustan
-        <ul>
-          <li>Programacion</li>
-          <li>Ingenieria</li>
-          <li>Fisica</li>
-          <li>Formula 1</li>
-        </ul>
-      </li>
-      <li>
-        Conocimientos tecnicos
-        <ul>
-          <li>Electricidad</li>
-          <li>Refrigeracion</li>
-          <li>Plomeria</li>
-          <li>Albañileria</li>
-        </ul>
-      </li>
-    </ol>
-    <br />
-    <form>
-      <label for="usuario">Usuario</label>
-      <input id="usuario" type="text" placeholder="Juan Manuel" />
+    <div>
+      <h2>Datos acerca de mi</h2>
+      <ol class="ol1">
+        <li>
+          Informacion personal
+          <ul>
+            <li>Edad: 28</li>
+            <li>Lugar de nacimiento: Salta</li>
+            <li>Fecha de nacimiento: 29/05/1997</li>
+          </ul>
+        </li>
+        <li>
+          Temas que me gustan
+          <ul>
+            <li>Programacion</li>
+            <li>Ingenieria</li>
+            <li>Fisica</li>
+            <li>Formula 1</li>
+          </ul>
+        </li>
+        <li>
+          Conocimientos tecnicos
+          <ul>
+            <li>Electricidad</li>
+            <li>Refrigeracion</li>
+            <li>Plomeria</li>
+            <li>Albañileria</li>
+          </ul>
+        </li>
+      </ol>
       <br />
-      <label for="email">Email</label>
-      <input id="email" type="email" placeholder="juanrosol1997@gmail.com" />
-      <br />
-      <label for="password">Password</label>
-      <input id="password" type="password" placeholder="1241ADDoaso" />
-      <br />
-    </form>
-    <h2>Selecciona al piloto de F1 que mas te guste</h2>
-    <form>
-      <label for="cola">Franco Colapinto</label>
-      <input id="cola" type="checkbox" />
-      <br />
-      <label for="ham">Louis Hammilton</label>
-      <input id="ham" type="checkbox" />
-      <br />
-      <label for="max">Max Verstappen</label>
-      <input id="max" type="checkbox" />
-      <br />
-      <label for="alonso">Fernando Alonso</label>
-      <input id="alonso" type="checkbox" />
-      <br />
-      <label for="norris">Lando Norris</label>
-      <input id="norris" type="checkbox" />
-      <br />
-    </form>
-    <h3>Acepta continuar viendo</h3>
-    <form>
-      <label for="aceptar">click en aceptar</label>
-      <input id="aceptar" type="submit" value="Aceptar" />
-    </form>
-    <h3>
-      O si quieres saber algo mas de la F1 haz click en
-      <u> saber mas de la F1</u>
-    </h3>
-    <a
-      target="_blank"
-      href="https://www.formula1.com/es-ar/subscribe-to-f1-tv?utm_source=Brainlabs&utm_medium=Display&utm_campaign=F1TVPro&utm_audience=conversion&utm_content=pmax&gad_source=1&gad_campaignid=22237911737&gclid=CjwKCAjw56DBBhAkEiwAaFsG-mM293pUySoMya4p3YLPpIaWbO6Q8NH9IbyX3Z44m-iWK26_JuhmIxoCw7sQAvD_BwE&gclsrc=aw.ds"
-    >
-      <label for="infof1"></label>
-      <input id="infof1" type="button" value="Quiero saber mas de la F1" />
-    </a>
-    <h3>Tabla con escuderias y sus pilotos en la F1</h3>
-    <table>
-      <tr>
-        <th>Mercedez Benz</th>
-        <th>Ferrari</th>
-        <th>Alpine</th>
-        <th>Mclaren</th>
-        <th>Williams</th>
-      </tr>
-      <tr>
-        <th>George Russel</th>
-        <th>Louis Hammilton</th>
-        <th>Franco Colapinto</th>
-        <th>Lando Norris</th>
-        <th>Carlos Sainz</th>
-      </tr>
-      <tr>
-        <th>Kimi Antonelli</th>
-        <th>Charles Leclerc</th>
-        <th>Pierre Gasly</th>
-        <th>Oscar Piastri</th>
-        <th>Alex Albon</th>
-      </tr>
-    </table>
-    <h3>Algunas cosas sobre mi</h3>
-    <p>
-      <strong
-        >Mi nombre es Juan Manuel Rosol estoy estudiando programacion y esta es
-        una primer pagina solo con html, gracias por ver!!!!!!</strong
+      <form>
+        <label for="usuario">Usuario</label>
+        <input id="usuario" type="text" placeholder="Juan Manuel" />
+        <br />
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="juanrosol1997@gmail.com" />
+        <br />
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="1241ADDoaso" />
+        <br />
+      </form>
+      <h2>Selecciona al piloto de F1 que mas te guste</h2>
+      <form>
+        <label for="cola">Franco Colapinto</label>
+        <input id="cola" type="checkbox" />
+        <br />
+        <label for="ham">Louis Hammilton</label>
+        <input id="ham" type="checkbox" />
+        <br />
+        <label for="max">Max Verstappen</label>
+        <input id="max" type="checkbox" />
+        <br />
+        <label for="alonso">Fernando Alonso</label>
+        <input id="alonso" type="checkbox" />
+        <br />
+        <label for="norris">Lando Norris</label>
+        <input id="norris" type="checkbox" />
+        <br />
+      </form>
+      <h3>Acepta continuar viendo</h3>
+      <form>
+        <label for="aceptar">click en aceptar</label>
+        <input id="aceptar" type="submit" value="Aceptar" />
+      </form>
+      <h3>
+        O si quieres saber algo mas de la F1 haz click en
+        <u> saber mas de la F1</u>
+      </h3>
+      <a
+        target="_blank"
+        href="https://www.formula1.com/es-ar/subscribe-to-f1-tv?utm_source=Brainlabs&utm_medium=Display&utm_campaign=F1TVPro&utm_audience=conversion&utm_content=pmax&gad_source=1&gad_campaignid=22237911737&gclid=CjwKCAjw56DBBhAkEiwAaFsG-mM293pUySoMya4p3YLPpIaWbO6Q8NH9IbyX3Z44m-iWK26_JuhmIxoCw7sQAvD_BwE&gclsrc=aw.ds"
       >
-    </p>
+        <label for="infof1"></label>
+        <input id="infof1" type="button" value="Quiero saber mas de la F1" />
+      </a>
+      <h3>Tabla con escuderias y sus pilotos en la F1</h3>
+      <table>
+        <tr>
+          <th>Mercedez Benz</th>
+          <th>Ferrari</th>
+          <th>Alpine</th>
+          <th>Mclaren</th>
+          <th>Williams</th>
+        </tr>
+        <tr>
+          <th>George Russel</th>
+          <th>Louis Hammilton</th>
+          <th>Franco Colapinto</th>
+          <th>Lando Norris</th>
+          <th>Carlos Sainz</th>
+        </tr>
+        <tr>
+          <th>Kimi Antonelli</th>
+          <th>Charles Leclerc</th>
+          <th>Pierre Gasly</th>
+          <th>Oscar Piastri</th>
+          <th>Alex Albon</th>
+        </tr>
+      </table>
+      <h3>Algunas cosas sobre mi</h3>
+      <p>
+        <strong
+          >Mi nombre es Juan Manuel Rosol estoy estudiando programacion y esta
+          es una primer pagina solo con html, gracias por ver!!!!!!</strong
+        >
+      </p>
+    </div>
   </body>
 </html>
